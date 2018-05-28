@@ -1,3 +1,25 @@
+@font-face {
+    font-family: msb;
+    src: url(Montserrat-SemiBold.otf);
+}
+@font-face {
+    font-family: mt;
+    src: url(Montserrat-Thin.otf);
+}
+@font-face {
+    font-family: mr;
+    src: url(Montserrat-Regular.otf);
+}
+@font-face {
+    font-family: osr;
+    src: url(OpenSans-Regular.ttf);
+}
+@font-face {
+    font-family: ossb;
+    src: url(OpenSans-Semibold.ttf);
+}
+
+
 /***************************************
 /* Grille de mise en page pour le mobile
 ***************************************/
@@ -19,8 +41,8 @@ Créateur : Christophe HERMANN (@chrishrmnn)
 /* Header
 **********/
 	header[role=banner] {
-		background:#fff;
-		border-bottom:4px solid #33a4c9;
+		background: #3ea6cf;
+		border-bottom:4px solid #dadada;
 		padding: 19px 0;
 		overflow: hidden;
 	}
@@ -34,15 +56,14 @@ Créateur : Christophe HERMANN (@chrishrmnn)
 	}
 	
 	header hgroup h1 {
-		color:#555;
-		font-family:'DroidSansBold', Arial, sans-serif;
+		color:#fff;
+		font-family: mr;
 	}
 	
-	header hgroup h2 {
-		color:#cecece;
-		font-style: italic;
-		line-height: 30px;
-		text-shadow: 1px 1px 0 rgba(0,0,0,.3);
+	header hgroup h2 {		
+		font-family: osr;
+		color:#fff9;
+
 	}
 
 /************
@@ -314,6 +335,13 @@ Créateur : Christophe HERMANN (@chrishrmnn)
 		z-index: 1;
 	}
 	
+/*meeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee*/
+p{
+	font-family: osr;
+}
+li{
+	font-family: osr;
+}
 	
 	/***********
 	/* Pictos
