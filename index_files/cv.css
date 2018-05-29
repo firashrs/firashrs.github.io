@@ -1,4 +1,4 @@
-@font-face {
+﻿@font-face {
     font-family: msb;
     src: url(Montserrat-SemiBold.otf);
 }
@@ -84,7 +84,6 @@
 **********/
 	header[role=banner] {
 		background: #3ea6cf;
-		border-bottom:4px solid #dadada;
 		padding: 19px 0;
 		overflow: hidden;
 	}
