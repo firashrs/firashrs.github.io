@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <title>Firas Hares - A Programmer's Journey</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    
+
+
+    <style>
+#scene,body,html{overflow:hidden;height:100%}#boat,#octopus{animation:10s ease-in-out infinite float}#projectShrew,#projectShrewLogo{bottom:21%;width:22vh;height:22vh;left:64.5%}#projectBrute,#projectBruteLogo{bottom:20%;width:25vh;height:25vh;left:28.3%}#octopus,#submarine{bottom:18%;z-index:5}#layer4,#scene,#sunrays,body,html{height:100%}#bookOne,#floating-character{animation:4s ease-in-out infinite float}#bookOne,#bookThree,#bookTwo{background:url('barrel') center center/contain no-repeat}#bookThree,#introduction{animation:6s ease-in-out infinite float}#signEducation,#signInfluences,#signIntroduction{padding-top:5vh;padding-right:7vh}#signEducation,#signInfluences,#signIntroduction,#signPersonalProjects,#signProfessionalExperiences,#signSkills{bottom:30%;width:19vh;height:19vh;background:url('sign') center center/contain no-repeat;text-align:center;font-family:Georgia,serif;color:#fff;font-weight:700;text-shadow:-1px -1px 0 rgba(0,0,0,.4),1px -1px 0 rgba(0,0,0,.4),-1px 1px 0 rgba(0,0,0,.4),1px 1px 0 rgba(0,0,0,.4);z-index:4}#bookOne,#bookThree,#bookTwo,#savingBuyoe{width:20vh;height:20vh}#bookTwo,#bottle,#guitar,#radio{animation:3s ease-in-out infinite float}.big-text,.reachoutText,.sayhelloText{font-family:Pacifico,cursive;font-weight:400;font-style:normal;line-height:.8;color:#d2392d;text-shadow:.6vh .5vh 0 rgba(0,0,0,.19)}.diplomas,.footer{align-items:center}#bottle,#floating-character,#guitar,#layer4,#mountain,#radio,#savingBuyoe,#sunrays,#turtleAlert{pointer-events:none}#bookOneAlert p,#bookThreeAlert h3,#bookThreeAlert p,#bookTwoAlert h1,#bookTwoAlert p{margin:0 0 0 4%;text-align:left}.footer-social-links a,.social-links a{background-color:#000;border-radius:5px}.pacifico-regular{font-family:Pacifico,cursive;font-weight:400;font-style:normal}body,html{margin:0;padding:0;font-family:Arial,sans-serif;background-color:#87ceeb;perspective:1000px}#scene{position:relative;width:580%}#layer1,#layer2,#layer3,#layer4{background-repeat:repeat-x}#layer1,#layer2,#layer3{height:50%;background-repeat:round;position:absolute;left:0;background-size:contain;width:100%}#layer1{background-image:url('layer1');z-index:0;top:0}#mountain{z-index:0;height:50%;position:absolute;right:0;opacity:50%}#sunrays{z-index:10;width:100%;position:absolute;left:0;opacity:25%}#layer2{background-image:url('layer2');z-index:2;top:0}#layer3{background-image:url('layer3');z-index:3;bottom:0}#layer4{background-image:url('layer4');z-index:7;background-size:contain;position:absolute;bottom:0;left:0;width:300%}#water{position:absolute;bottom:0;left:0;width:100%;height:60%;background:#00bfff;z-index:4}#floating-character{position:absolute;bottom:10vh;left:23vw;background-size:contain;z-index:6}#flipping-character{width:40vh;height:40vh;background:url('character') bottom/contain no-repeat;background-position-y:center}.flipped{transform:scaleX(-1)}.showPopup{display:block!important}.object{position:absolute;bottom:40%;z-index:4}#introduction{position:absolute;bottom:28%;width:37vh;height:37vh;background:url('introduction2') center center/contain no-repeat;z-index:5;left:100vw}#signIntroduction{position:absolute;left:98vw;font-size:1.8vh}#signEducation p2,#signInfluences p2,#signIntroduction p2,#signPersonalProjects p2,#signProfessionalExperiences p2,#signSkills p2{display:inline-block;transform:rotate(-15deg)}#boat{position:absolute;bottom:12%;width:50vh;height:50vh;background:url('boat') center center/contain no-repeat;z-index:4;left:153vw}#signEducation{position:absolute;left:150vw;font-size:2vh}#lighthouse{position:absolute;bottom:25%;width:80vh;height:80vh;background:url('lighthouse') center center/contain no-repeat;z-index:4;left:200vw}#signSkills{position:absolute;left:200vw;font-size:3vh;padding-top:4vh;padding-right:7vh}#octopus{position:absolute;width:88vh;height:59vh;background:url('octopus') center center/contain no-repeat;left:277vw}#turtle{position:absolute;bottom:17%;width:63vh;height:50vh;background:url('turtle') center center/contain no-repeat;animation:8s ease-in-out infinite float;z-index:4;left:327vw}#signProfessionalExperiences{position:absolute;left:261vw;font-size:1.7vh;padding-top:4vh;padding-right:7vh}#projectLudo{position:absolute;bottom:19%;width:25vh;height:25vh;background-size:contain;z-index:5;left:45.9%}#projectLudoLogo{position:absolute;bottom:19%;width:25vh;height:25vh;background:url('projectsAlert/ludoLogo') center center/contain no-repeat;z-index:4;left:45.9%}#projectShrew{position:absolute;background-size:contain;z-index:5}#projectShrewLogo{position:absolute;background:url('projectsAlert/shrewLogo') center center/contain no-repeat;z-index:4}#projectBrute{position:absolute;background-size:contain;z-index:5}#projectBruteLogo{position:absolute;background:url('projectsAlert/bacLogo') center center/contain no-repeat;z-index:4}#submarine{position:absolute;width:140vh;height:90vh;background-size:contain;left:386vw}#submarineImage{position:absolute;bottom:0;width:100%;height:100%;background-size:contain;z-index:5;left:0}#signPersonalProjects{position:absolute;left:375vw;font-size:2.3vh;padding-top:3vh;padding-right:8vh}#bookOne{position:absolute;bottom:30%;z-index:4;left:486vw}#bookTwo{position:absolute;bottom:30%;z-index:4;left:503vw}#bookThree{position:absolute;bottom:30%;z-index:4;left:521vw}#signInfluences{position:absolute;left:467vw;font-size:2vh}#moveLeftButton,#moveRightButton{font-size:7vw;opacity:70%;bottom:30%;cursor:pointer;user-select:none;padding:2%;text-decoration:none}#savingBuyoe{position:absolute;bottom:25%;background:url('savingBuyoe') center center/contain no-repeat;z-index:5;animation:5s ease-in-out infinite float;left:41vw}@media (orientation:portrait){#scene{width:1400%}#introduction{left:100vw}#signIntroduction{left:98vw}#introductionAlert{left:33%}#boat,#signEducation{left:200vw}#boatAlert{left:0}#lighthouse,#signSkills{left:350vw}#lighthouseAlert{left:10%}#octopus{left:550vw}#octopusAlert,#turtleAlert{left:20%}#turtle{left:680vw}#signProfessionalExperiences{left:500vw}#submarine{left:850vw}#signPersonalProjects{left:810vw}#bookOne{left:1200vw}#bookTwo{left:1250vw}#bookThree{left:1300vw}#signInfluences{left:1150vw}#savingBuyoe{left:41vw}#bottle{left:304vw}#guitar{left:158vw}}#bottle{position:absolute;bottom:28%;width:15vh;height:15vh;background:url('bottle') center center/contain no-repeat;z-index:5;left:247vw}#guitar{position:absolute;bottom:28%;width:28vh;height:28vh;background:url('guitar') center center/contain no-repeat;z-index:4;left:132vw}#radio{position:absolute;bottom:28%;width:18vh;height:18vh;background:url('radio') center center/contain no-repeat;z-index:5;left:69vw}.popup{position:absolute;bottom:70%;left:50%;transform:translateX(-50%);padding:5px 10px;background:rgba(255,255,255,.9);border-radius:5px;display:none;white-space:nowrap}.welcome-text{position:absolute;top:17%;left:10vw;z-index:7}.reach-out-text{position:absolute;top:9%;left:536vw;z-index:7}.reach-out-text img{left:36%;height:42%;position:absolute}.reachoutText{font-size:8vw}.sayhelloText{font-size:5vw;text-align:right}.big-text{font-size:8vw;margin:7px}.instructions{z-index:10;position:absolute;color:#fff;font-size:2.3vw;bottom:15%;text-align:center;align-self:center;left:39vw;font-weight:700;opacity:.8}#moveLeftButton,#moveRightButton,.footer{position:fixed;z-index:11}.small-text,.the-resume-text{font-family:Pacifico,cursive;font-weight:400;font-style:normal;font-size:2vw;line-height:.8;margin:7px;color:#0838c8}.small-text{text-align:right}#moveRightButton{color:#fff;right:0}#moveLeftButton{color:#fff;left:0}.footer{display:flex;bottom:0;left:50%;margin-left:-225px;text-align:center;width:450px;align-content:center;background-color:#fff5;border-radius:10px 10px 0 0;opacity:75%}.footer p,.footer-contact-info p{margin-right:2%;font-size:15px;margin-bottom:1vh;margin-top:1vh;font-weight:700}.footer-contact-info a{color:#000;text-decoration:none}.footer-social-links{display:flex;justify-content:space-around;position:absolute;right:0}.footer-social-links a{height:20px;width:20px;color:#72abfff6;display:flex;justify-content:center;align-items:center;text-decoration:none;font-size:15px;margin:.3vh;padding:.3vh}#boatAlert{background:url('bg') center center/contain no-repeat;position:absolute;text-align:center;padding-left:32%;left:-3%;bottom:65%;height:45vh;width:45vh;display:none}#isiImage{padding-right:30%;padding-top:2%;height:31%;margin:0}#isiTitle{padding-right:30%;font-size:2vh;font-weight:700;margin:0}.diplomas{display:flex;padding-right:31%;margin:7% 0 0}#octopusAlert,#turtleAlert{left:50%;height:45vh;align-items:center;position:absolute;display:none;background:url('bg') center center/contain no-repeat;bottom:38%;width:45vh;text-align:center;align-content:center}#diplomaImage{padding-right:0;width:63%;margin:0}#diplomaTitle{padding-right:0;font-size:2vh;margin:0}#octopusAlert{padding-left:13%}#emdepImage,#focusImage{margin-right:24%;height:10vh}#octopusAlert h1,#octopusAlert h3,#octopusAlert p,#turtleAlert h1,#turtleAlert h3,#turtleAlert p{margin-right:24%;font-size:2vh}#turtleAlert{padding-left:24%}#bookOneAlert,#bookThreeAlert,#bookTwoAlert{background:url('bgSmall') center center/contain no-repeat;position:absolute;text-align:center;padding-left:5%;left:-25%;bottom:94%;height:12vh;width:26vh;padding-bottom:10%;padding-top:10%;display:none}#bookOneAlert img,#bookThreeAlert img,#bookTwoAlert img,#projectLogo,.header img{height:10vh}#introductionAlert,#lighthouseAlert{position:absolute;padding-left:32%;height:45vh;display:none}#bookOneAlert h1,#bookThreeAlert h1{font-size:2.3vh;margin:0 0 0 4%;font-weight:700;text-align:left}#bookTwoAlert h1{font-size:2.1vh;font-weight:700}#bookOneAlert h3,#bookTwoAlert h3{font-size:1.3vh;margin:0 0 5% 4%;text-align:left}#bookThreeAlert h3{font-size:1.3vh}#bookOneAlert p,#bookThreeAlert p{font-size:1.7vh;font-weight:700}#bookTwoAlert p{font-size:1.4vh;font-weight:700}#introductionAlert{background:url('bg') center center/contain no-repeat;text-align:center;left:44%;bottom:38%;width:45vh}.header{display:flex;align-items:center;margin-top:5%;margin-right:20%}.header h1{font-size:4.3vh;margin:0;font-weight:700}.header p{margin:0;font-size:3vh}.contact-info a,.contact-info p{margin-bottom:1vh;margin-top:1vh}.contact-info p,h2{font-size:3.5vh;margin-right:20%}#age{margin:0;font-size:2.2vh}.Myhr{padding-right:5vh;width:40%;left:-9%;position:relative;margin-bottom:2vh;margin-top:2vh}h2{margin-top:0;margin-bottom:0}.contact-info a{color:#000;text-decoration:none}.social-links{display:flex;justify-content:space-around;margin-right:20%}.social-links a{height:4vh;width:4vh;color:#f0c45c;display:flex;justify-content:center;align-items:center;text-decoration:none;font-size:3vh}#projectBruteAlert,#projectLudoAlert,#projectShrewAlert{background:url('bgHorizontal') center center/100% 100% no-repeat;position:absolute;text-align:center;padding-left:8%;left:-49%;bottom:97%;height:30vh;width:47vh;z-index:7;display:none;align-content:center;align-items:center}#projectDescriptionHeader{display:flex;align-items:center;margin-right:8%;margin-top:3%}#projectDescriptionTitles{align-content:left;margin:0;width:100%}#projectImage{height:9vh}#projectBruteAlert h3,#projectLudoAlert h3,#projectShrewAlert h3{font-size:2vh;margin-left:10%;margin-bottom:0;margin-top:0;text-align:left;font-weight:400}#projectLudoAlert h1,#projectShrewAlert h1{font-size:3vh;margin-bottom:2%;margin-top:0;margin-left:10%;text-align:left}#projectBruteAlert h1{font-size:2.6vh;margin-bottom:2%;margin-top:0;margin-left:10%;text-align:left}#projectBruteAlert p,#projectLudoAlert p,#projectShrewAlert p{font-size:2vh;text-align:left;margin-right:8%}#lighthouseAlert{background-size:contain;text-align:left;bottom:15%;left:31%;width:27vh}#SkillDescription{padding:3% 0 3% 12%;background:url('bg') center/100% 100% no-repeat;margin-bottom:2%;width:100%}#SkillDescription p{font-size:2vh;font-weight:700;margin:0}#SkillDescription li{font-size:1.8vh}#SkillDescription ul{margin:1%;padding:0 0 0 13%}@media (orientation:portrait){.reach-out-text{top:17%;left:1323vw}.reachoutText{font-size:14vw}.sayhelloText{font-size:10vw}.instructions{font-size:5.3vw;left:24vw}.big-text{font-family:Pacifico,cursive;font-weight:400;font-style:normal;font-size:15vw;line-height:.8;margin:7px;color:#d2392d}.small-text,.the-resume-text{font-family:Pacifico,cursive;font-weight:400;font-style:normal;font-size:4vw;line-height:.8;margin:7px;color:#0838c8}.small-text{text-align:right}}@keyframes float{0%,100%{transform:translateY(0) rotate(0)}50%{transform:translateY(10px) rotate(3deg)}}
+    </style>
+    <link rel="icon" href="logo.ico" type="image/x-icon">
+</head>
+
+<body>
+    <audio autoplay loop>
+        <source src="FirasDayBeachAmbiance" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+
+    <div id="moveRightButton">
+        <a>></a>
+    </div>
+    <div id="moveLeftButton">
+
+        <a>
+            < </a>
+    </div>
+    <div class="footer">
+        <p id="MyLog"></p>
+        <p>Firas Hares - 2024 - firas.hrs@gmail.com</p>
+        <div class="footer-social-links">
+            <a href="mailto:firas.hrs@gmail.com"><i class="fas fa-envelope"></i></a>
+            <a href="tel:+21658915101"><i class="fas fa-phone-alt"></i></a>
+            <a href="https://www.facebook.com/firas.hares.3" target="_blank"><i class="fab fa-facebook-f"></i></a>
+            <a href="https://www.linkedin.com/in/firas-hares/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+            <a href="https://github.com/firashrs" target="_blank"><i class="fab fa-github"></i></a>
+        </div>
+    </div>
+    <img src="layer1" id="layer1"></div>
+    <img src="mountain" id="mountain" />
+    <img src="sunrays" id="sunrays" />
+    <div id="scene">
+
+        <div class="instructions">
+            Use Arrows to move.</div>
+        <div class="welcome-text">
+            <h1 class="the-resume-text">The Resume of</h1>
+            <h1 class="big-text">Firas Hares</h1>
+            <h1 class="small-text">A Programmer's Journey</h1>
+        </div>
+        <div id="layer2"></div>
+        <div id="layer3"></div>
+        <div id="layer4"></div>
+        <div id="floating-character">
+            <div id="flipping-character"></div>
+        </div>
+
+        <div class="object" id="signIntroduction" class="rotated-text">
+            <p2>Introduction</p2>
+        </div>
+        <div class="object" id="introduction">
+            <div id="introductionAlert">
+                <div class="header">
+                    <img src="photo" alt="Profile Image">
+                    <div>
+                        <h1>Firas Hares</h1>
+                        <p>Found in <b>Tunisia</b></p>
+                        <p id="age"><b>27</b> trips around the sun</p>
+                    </div>
+                </div>
+                <hr class="Myhr">
+                <h2>Software Engineer</h2>
+                <hr class="Myhr">
+                <div class="contact-info">
+                    <p><a href="mailto:firas.hrs@gmail.com">firas.hrs@gmail.com</a></p>
+                    <p><a href="tel:+21658915101">+216 58 915 101</a></p>
+                </div>
+                <div class="social-links">
+                    <a href="https://www.facebook.com/firas.hares.3" target="_blank"><i
+                            class="fab fa-facebook-f"></i></a>
+                    <a href="https://www.linkedin.com/in/firas-hares/" target="_blank"><i
+                            class="fab fa-linkedin-in"></i></a>
+                    <a href="https://github.com/firashrs" target="_blank"><i class="fab fa-github"></i></a>
+                </div>
+            </div>
+        </div>
+
+        <div class="object" id="signEducation" class="rotated-text">
+            <p2>Education</p2>
+        </div>
+        <div class="object" id="boat">
+            <div id="boatAlert">
+
+                <img id="isiImage" src="isi" alt="Isi Image">
+                <p id="isiTitle">Institut Superieur d'Informatique (ISI)</p>
+                <div class="diplomas">
+                    <div>
+                        <img id="diplomaImage" src="diploma" alt="Profile Image">
+                        <p id="diplomaTitle">License In Computer Science (2019)</p>
+                    </div>
+                    <div>
+                        <img id="diplomaImage" src="diploma" alt="Profile Image">
+                        <p id="diplomaTitle">Engineer In Computer Science (2022)</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="object" id="signSkills" class="rotated-text">
+            <p2>Skills</p2>
+        </div>
+        <div class="object" id="lighthouse">
+            <div id="lighthouseAlert">
+                <div id="SkillDescription">
+                    <p>Desktop Development</p>
+                    <ul>
+                        <li>Using C# and C++</li>
+                        <li>Cross Platform</li>
+                        <li>Clean Architecture</li>
+                    </ul>
+                </div>
+
+                <div id="SkillDescription">
+                    <p>Dot Net Framework</p>
+                    <ul>
+                        <li>Avalonia</li>
+                        <li>Entity Framework</li>
+                        <li>MVVM architecture</li>
+                    </ul>
+                </div>
+
+                <div id="SkillDescription">
+                    <p>Competitive Programming</p>
+                    <ul>
+                        <li>Using C++</li>
+                        <li>Representing University Team</li>
+                        <li>Competed Nationally</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="object" id="signProfessionalExperiences" class="rotated-text">
+            <p2>Professional Experiences</p2>
+        </div>
+        <div class="object" id="octopus">
+            <div id="octopusAlert">
+
+                <img id="emdepImage" src="emdep" alt="Emdep">
+                <h3>EMDEP Testboards (Spain - Tunis)</h3>
+                <h1>Software Engineer</h1>
+
+                <h1>Since 2023</h1>
+
+                <p>
+                    Developing and maintaining a <b>.NET desktop applications</b>.
+                    The programs command the assembly lines in automotive factories.
+                    orchestrating communication and coordination with different robots.
+                </p>
+            </div>
+        </div>
+        <div class="object" id="turtle">
+            <div id="turtleAlert">
+
+                <img id="focusImage" src="focus" alt="Focus">
+                <h3>Focus(Tunis)</h3>
+                <h1>Software Engineer</h1>
+                <h1>2022</h1>
+                <p>
+                    <b>C</b> Developer and MBD Engineer.
+                    Developed Tools for semi-automatic testing of <b>Model Based Designs</b> (automotive industry).
+                </p>
+            </div>
+        </div>
+
+
+        <div class="object" id="signPersonalProjects" class="rotated-text">
+            <p2>Personal Projects</p2>
+        </div>
+        <div class="object" id="submarine">
+            <img id="submarineImage" src="submarine" alt="Submarine">
+
+            <div id="projectBruteLogo"></div>
+            <div class="object" id="projectBrute">
+                <div id="projectBruteAlert">
+                    <div id="projectDescriptionHeader">
+                        <img id="projectImage" src="bac" alt="Brute Asset Control">
+                        <div id="projectDescriptionTitles">
+
+                            <h1>Brute Asset Control</h1>
+                            <h3>Desktop Application</h3>
+                            <h3>2024</h3>
+                        </div>
+
+                    </div>
+                    <p>
+                        A free, <b>Cross-Platform</b> personal budgeting application.
+                        Developed using <b>C#</b>,<b>Dot Net 8</b> and <b>Avalonia</b> (based on the <b>MVVM
+                            architecture</b>)
+                        It uses a local <b>SQLite</b> database and controls its through the <b>Entity framework</b>.
+
+                        <a href="https://github.com/firashrs/Brute-Asset-Control-Installers"><b>Git Hub</b></a>
+
+                    </p>
+                </div>
+            </div>
+
+            <div id="projectLudoLogo"></div>
+            <div class="object" id="projectLudo">
+                <div id="projectLudoAlert">
+                    <div id="projectDescriptionHeader">
+                        <img id="projectImage" src="ludo" alt="Ludo Tunisia">
+                        <div id="projectDescriptionTitles">
+
+                            <h1>Ludo Tunisia</h1>
+                            <h3>Android Mobile Game</h3>
+                            <h3>2024</h3>
+                        </div>
+
+                    </div>
+                    <p>
+                        The Tunisian version of the famous LUDO game. With Tunisian art style, music and vibes.
+                        Developed using <b>C#</b> and <b>Unity 3D</b>.
+                        The game is <b>published</b> on <a
+                            href="https://play.google.com/store/apps/details?id=com.FirasHrs.LudoTunisia">
+                            <b>Google Play</b>
+                        </a>
+                        with more than <b>100+ downloads</b>.
+                    </p>
+                </div>
+            </div>
+            <div id="projectShrewLogo"></div>
+            <div class="object" id="projectShrew">
+                <div id="projectShrewAlert">
+                    <div id="projectDescriptionHeader">
+                        <img id="projectImage" src="shrew" alt="Shrew VHDL">
+                        <div id="projectDescriptionTitles">
+
+                            <h1>Shrew VHDL</h1>
+                            <h3>Desktop Application</h3>
+                            <h3>2023</h3>
+                        </div>
+
+                    </div>
+                    <p>
+                        A free open-source <b>VHDL IDE </b>for Windows. Developed using <b>C++</b> and <b>WxWidgets</b>.
+                        this IDE is able to assist the VHDL hardware description language from writing the scripts, to
+                        compiling, to running signal simulations.
+                        <a href="https://github.com/firashrs/Shrew-VHDL-Alpha-Version"><b>Git Hub</b></a>
+
+                    </p>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="object" id="signInfluences" class="rotated-text">
+            <p2>Influences</p2>
+        </div>
+        <div class="object" id="bookOne">
+            <div id="bookOneAlert">
+                <div style="display: flex;align-items: center;">
+                    <img src="cleanCode" alt="Clean Code">
+                    <div>
+                        <h1>Clean Code</h1>
+                        <h3>A Handbook of Agile Software Craftsmanship</h3>
+                        <p>by Robert C Martin</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="object" id="bookTwo">
+            <div id="bookTwoAlert">
+
+                <div style="display: flex;align-items: center;">
+                    <img src="designPatterns" alt="Design Patterns">
+                    <div>
+                        <h1>Design Patterns</h1>
+                        <h3>Dive Into Design Patterns</h3>
+                        <p>by Alexander Shvets</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="object" id="bookThree">
+            <div id="bookThreeAlert">
+
+                <div style="display: flex;align-items: center;">
+                    <img src="competitiveProgramming" alt="Competitive Programming">
+                    <div>
+                        <h1>Competitive Programming</h1>
+                        <h3>Guide To Competitive Programming</h3>
+                        <p>by Antti Laaksonen</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Random Objects FLoating about -->
+
+        <div class="object" id="savingBuyoe">
+        </div>
+        <div class="object" id="bottle">
+        </div>
+        <div class="object" id="guitar">
+        </div>
+        <div class="object" id="radio">
+        </div>
+
+
+        <div class="reach-out-text">
+            <h1 class="reachoutText">Reach Out</h1>
+            <h1 class="sayhelloText">and Say Hello !</h1>
+            <img src="arrow" />
+        </div>
+        <!-- Create 10 objects along the path -->
+    </div>
+
+    <script>
+       const _0x660587=_0x4711;(function(_0x1177cc,_0x15b516){const _0x2b039e=_0x4711,_0xfc0c8=_0x1177cc();while(!![]){try{const _0x25ab36=-parseInt(_0x2b039e(0x1a5))/0x1+parseInt(_0x2b039e(0x198))/0x2+parseInt(_0x2b039e(0x197))/0x3+parseInt(_0x2b039e(0x1a0))/0x4*(-parseInt(_0x2b039e(0x180))/0x5)+parseInt(_0x2b039e(0x18f))/0x6*(-parseInt(_0x2b039e(0x18a))/0x7)+-parseInt(_0x2b039e(0x175))/0x8*(parseInt(_0x2b039e(0x17f))/0x9)+parseInt(_0x2b039e(0x190))/0xa;if(_0x25ab36===_0x15b516)break;else _0xfc0c8['push'](_0xfc0c8['shift']());}catch(_0x19917){_0xfc0c8['push'](_0xfc0c8['shift']());}}}(_0xc984,0x4b4ef));const character=document[_0x660587(0x17b)]('floating-character'),flippingCharacter=document[_0x660587(0x17b)]('flipping-character'),log=document[_0x660587(0x17b)](_0x660587(0x18e)),objects=[];let ObjectsToPopup={},mouseHovering={};const introduction=document[_0x660587(0x17b)](_0x660587(0x1a4)),introductionAlert=document['getElementById'](_0x660587(0x16b));objects[_0x660587(0x19d)](introduction),ObjectsToPopup[introduction['id']]=introductionAlert;const education=document[_0x660587(0x17b)](_0x660587(0x16c)),educationAlert=document[_0x660587(0x17b)](_0x660587(0x174));objects[_0x660587(0x19d)](education),ObjectsToPopup[education['id']]=educationAlert;const lighthouse=document[_0x660587(0x17b)](_0x660587(0x19e)),lighthouseAlert=document['getElementById'](_0x660587(0x182));function _0xc984(){const _0x5ed713=['MyLog','784422PWEsRZ','8154890hxDtXC','bookTwo','innerHeight','addEventListener','projectBrute','offsetWidth','bookThree','1739595JhTtHo','741598kZWrVg','turtle','add','forEach','projectShrewAlert','push','lighthouse','px)','79532rvNXAx','classList','moveLeftButton','mouseover','introduction','461588AyVMpG','innerWidth','left','layer2','keydown','mousedown','radio','octopusAlert','octopus','translateX(','introductionAlert','boat','preventDefault','remove','projectLudo','bottle','key','touchend','offsetLeft','boatAlert','528JoZpaB','showPopup','bookOneAlert','includes','projectShrew','bookThreeAlert','getElementById','abs','ArrowRight','bookTwoAlert','41679lCIbsr','75JrlVvY','transform','lighthouseAlert','touchstart','moveRightButton','style','layer3','scene','mouseout','guitar','21BDHtCi','mouseup','flipped','mouseleave'];_0xc984=function(){return _0x5ed713;};return _0xc984();}function _0x4711(_0x589d2c,_0x5da228){const _0xc9848d=_0xc984();return _0x4711=function(_0x47119f,_0xf8b6a1){_0x47119f=_0x47119f-0x163;let _0x36d636=_0xc9848d[_0x47119f];return _0x36d636;},_0x4711(_0x589d2c,_0x5da228);}objects['push'](lighthouse),ObjectsToPopup[lighthouse['id']]=lighthouseAlert;const octopus=document[_0x660587(0x17b)](_0x660587(0x169)),octopusAlert=document[_0x660587(0x17b)](_0x660587(0x168));objects[_0x660587(0x19d)](octopus),ObjectsToPopup[octopus['id']]=octopusAlert;const turtle=document['getElementById'](_0x660587(0x199)),turtleAlert=document[_0x660587(0x17b)]('turtleAlert');objects['push'](turtle),ObjectsToPopup[turtle['id']]=turtleAlert;const submarine=document[_0x660587(0x17b)]('submarine');objects[_0x660587(0x19d)](submarine);const projectBrute=document[_0x660587(0x17b)](_0x660587(0x194)),projectBruteAlert=document[_0x660587(0x17b)]('projectBruteAlert');objects['push'](projectBrute),ObjectsToPopup[projectBrute['id']]=projectBruteAlert;const projectLudo=document['getElementById'](_0x660587(0x16f)),projectLudoAlert=document[_0x660587(0x17b)]('projectLudoAlert');objects[_0x660587(0x19d)](projectLudo),ObjectsToPopup[projectLudo['id']]=projectLudoAlert;const projectShrew=document[_0x660587(0x17b)]('projectShrew'),projectShrewAlert=document[_0x660587(0x17b)](_0x660587(0x19c));objects['push'](projectShrew),ObjectsToPopup[projectShrew['id']]=projectShrewAlert;const bookOne=document[_0x660587(0x17b)]('bookOne'),bookOneAlert=document[_0x660587(0x17b)](_0x660587(0x177));objects['push'](bookOne),ObjectsToPopup[bookOne['id']]=bookOneAlert;const bookTwo=document[_0x660587(0x17b)](_0x660587(0x191)),bookTwoAlert=document[_0x660587(0x17b)](_0x660587(0x17e));objects['push'](bookTwo),ObjectsToPopup[bookTwo['id']]=bookTwoAlert;const bookThree=document[_0x660587(0x17b)](_0x660587(0x196)),bookThreeAlert=document[_0x660587(0x17b)](_0x660587(0x17a));objects[_0x660587(0x19d)](bookThree),ObjectsToPopup[bookThree['id']]=bookThreeAlert;const savingBuyoe=document[_0x660587(0x17b)]('savingBuyoe');objects[_0x660587(0x19d)](savingBuyoe);const bottle=document['getElementById'](_0x660587(0x170));objects[_0x660587(0x19d)](bottle);const guitar=document[_0x660587(0x17b)](_0x660587(0x189));objects[_0x660587(0x19d)](guitar);const radio=document[_0x660587(0x17b)](_0x660587(0x167));objects['push'](radio);const scene=document[_0x660587(0x17b)](_0x660587(0x187)),layer1=document['getElementById']('layer1'),layer2=document[_0x660587(0x17b)](_0x660587(0x164)),layer3=document[_0x660587(0x17b)](_0x660587(0x186));objects['forEach']((_0x54c5ba,_0x4aa575)=>{const _0x6b4717=_0x660587;mouseHovering[_0x54c5ba['id']]=![],_0x54c5ba[_0x6b4717(0x193)](_0x6b4717(0x1a3),_0x3a349f=>{mouseHovering[_0x54c5ba['id']]=!![],showPopup(_0x54c5ba['id']);}),_0x54c5ba[_0x6b4717(0x193)](_0x6b4717(0x188),_0x976ecd=>{mouseHovering[_0x54c5ba['id']]=![],hidePopup(_0x54c5ba['id']);}),ObjectsToPopup[_0x54c5ba['id']]&&(ObjectsToPopup[_0x54c5ba['id']][_0x6b4717(0x193)](_0x6b4717(0x1a3),_0xe4534d=>{mouseHovering[_0x54c5ba['id']]=!![],showPopup(_0x54c5ba['id']);}),ObjectsToPopup[_0x54c5ba['id']]['addEventListener'](_0x6b4717(0x188),_0x54eff3=>{mouseHovering[_0x54c5ba['id']]=![],hidePopup(_0x54c5ba['id']);}));});let NormalDistanceMarginRatio=0.2,SmallDistanceMarginRatio=0.075;window['innerWidth']<window[_0x660587(0x192)]&&(NormalDistanceMarginRatio=0x1,SmallDistanceMarginRatio=0.4);let StartingPoint=window[_0x660587(0x1a6)]*0.23,EndPoint=window[_0x660587(0x1a6)]*0.5,characterX=StartingPoint-character[_0x660587(0x195)]/0x2;character[_0x660587(0x185)][_0x660587(0x163)]=characterX+'px';let sceneOffset=0x0;const maxOffset=-scene['offsetWidth']+window['innerWidth'];document['addEventListener'](_0x660587(0x165),handleKeyDown);let moveLeftInterval,moveRightInterval;const startMovingLeft=()=>{moveLeft(),moveLeftInterval=setInterval(moveLeft,0x32);},startMovingRight=()=>{moveRight(),moveRightInterval=setInterval(moveRight,0x32);},stopMoving=()=>{clearInterval(moveLeftInterval),clearInterval(moveRightInterval);};document[_0x660587(0x17b)](_0x660587(0x1a2))[_0x660587(0x193)]('mousedown',_0x3968a2=>{const _0x411687=_0x660587;_0x3968a2[_0x411687(0x16d)](),startMovingLeft();}),document[_0x660587(0x17b)]('moveRightButton')[_0x660587(0x193)](_0x660587(0x166),_0x4674ff=>{const _0x43c9ea=_0x660587;_0x4674ff[_0x43c9ea(0x16d)](),startMovingRight();}),document[_0x660587(0x193)](_0x660587(0x18b),stopMoving),document['getElementById'](_0x660587(0x1a2))[_0x660587(0x193)](_0x660587(0x18d),stopMoving),document[_0x660587(0x17b)](_0x660587(0x184))[_0x660587(0x193)](_0x660587(0x18d),stopMoving),document[_0x660587(0x17b)](_0x660587(0x1a2))[_0x660587(0x193)](_0x660587(0x183),_0x43a10f=>{const _0x4d7563=_0x660587;_0x43a10f[_0x4d7563(0x16d)](),startMovingLeft();}),document[_0x660587(0x17b)](_0x660587(0x184))[_0x660587(0x193)](_0x660587(0x183),_0x468e4c=>{const _0x3bf87e=_0x660587;_0x468e4c[_0x3bf87e(0x16d)](),startMovingRight();}),document[_0x660587(0x193)](_0x660587(0x172),stopMoving),document[_0x660587(0x17b)](_0x660587(0x1a2))[_0x660587(0x193)]('touchleave',stopMoving),document[_0x660587(0x17b)](_0x660587(0x184))['addEventListener']('touchleave',stopMoving);function handleKeyDown(_0x11e2ab){const _0x563800=_0x660587;if(_0x11e2ab[_0x563800(0x171)]==='ArrowLeft'||_0x11e2ab[_0x563800(0x171)]==='a'||_0x11e2ab[_0x563800(0x171)]==='A'||_0x11e2ab[_0x563800(0x171)]==='q'||_0x11e2ab[_0x563800(0x171)]==='Q')moveLeft();else(_0x11e2ab[_0x563800(0x171)]===_0x563800(0x17d)||_0x11e2ab['key']==='d'||_0x11e2ab['key']==='D')&&moveRight();}function moveLeft(){const _0x53ffea=_0x660587;if(characterX<=StartingPoint-character['offsetWidth']/0x2)characterX+=0x0;else{if(characterX+sceneOffset<=StartingPoint-character[_0x53ffea(0x195)]/0x2)sceneOffset+=0xa,characterX-=0xa;else characterX+sceneOffset>StartingPoint-character[_0x53ffea(0x195)]/0x2&&(characterX-=0xa);}flippingCharacter[_0x53ffea(0x1a1)][_0x53ffea(0x19a)]('flipped'),updateScene();}function moveRight(){const _0x3e41da=_0x660587;if(characterX+sceneOffset<window[_0x3e41da(0x1a6)]-EndPoint)characterX+=0xa;else sceneOffset>maxOffset+0xa&&(sceneOffset-=0xa,characterX+=0xa);flippingCharacter[_0x3e41da(0x1a1)][_0x3e41da(0x16e)](_0x3e41da(0x18c)),updateScene();}function updateScene(){const _0x3182b7=_0x660587;character[_0x3182b7(0x185)][_0x3182b7(0x163)]=characterX+'px',scene['style'][_0x3182b7(0x181)]='translateX('+sceneOffset+_0x3182b7(0x19f),layer2[_0x3182b7(0x185)][_0x3182b7(0x181)]=_0x3182b7(0x16a)+-sceneOffset*0.8+_0x3182b7(0x19f),layer3[_0x3182b7(0x185)][_0x3182b7(0x181)]=_0x3182b7(0x16a)+-sceneOffset*0.9+_0x3182b7(0x19f),layer4[_0x3182b7(0x185)][_0x3182b7(0x181)]='translateX('+-sceneOffset*0.1+_0x3182b7(0x19f),checkProximity();}function checkProximity(){const _0xd7fd79=_0x660587;let _0x5e9776=submarine['offsetLeft']+sceneOffset;objects[_0xd7fd79(0x19b)]((_0x19523d,_0x2b0511)=>{const _0x2907e9=_0xd7fd79;let _0x5371e3=_0x19523d[_0x2907e9(0x173)]+sceneOffset;_0x5371e3+=_0x19523d['offsetWidth']/0x2,[_0x2907e9(0x16f),_0x2907e9(0x194),_0x2907e9(0x179)][_0x2907e9(0x178)](_0x19523d['id'])?(_0x5371e3=_0x5e9776+_0x19523d[_0x2907e9(0x173)],Math['abs'](characterX+sceneOffset-_0x5371e3)<window[_0x2907e9(0x1a6)]*SmallDistanceMarginRatio?showPopup(_0x19523d['id']):hidePopup(_0x19523d['id'])):Math[_0x2907e9(0x17c)](characterX+character[_0x2907e9(0x195)]/0x2+sceneOffset-_0x5371e3)<window[_0x2907e9(0x1a6)]*NormalDistanceMarginRatio?showPopup(_0x19523d['id']):hidePopup(_0x19523d['id']);});}function showPopup(_0x5ab131){const _0x3c0533=_0x660587;ObjectsToPopup[_0x5ab131]&&ObjectsToPopup[_0x5ab131]['classList'][_0x3c0533(0x19a)](_0x3c0533(0x176));}function hidePopup(_0x2e439a){const _0x5b8ebc=_0x660587;ObjectsToPopup[_0x2e439a]&&(mouseHovering[_0x2e439a]==![]&&ObjectsToPopup[_0x2e439a][_0x5b8ebc(0x1a1)][_0x5b8ebc(0x16e)](_0x5b8ebc(0x176)));}
+    </script>
+
+</body>
+
+</html>
