@@ -32,3 +32,18 @@ Check out the demo below and take a stroll along the digital shoreline:
 
 
 ![Screenshot](wallpaper3.jpg)
+
+## Behind the scenes
+
+Here are some scetches from the early stages of the project.
+<p align="center">
+  <img src="scetch1.jpeg" alt="Scetch 1" width="600">
+</p>
+<p align="center">
+  <img src="scetch2.jpeg" alt="Scetch 2" width="600">
+</p>
+<p align="center">
+  <img src="scetch3.jpeg" alt="Scetch 3" width="600">
+</p>
+
+$
