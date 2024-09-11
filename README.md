@@ -46,4 +46,4 @@ Here are some scetches from the early stages of the project.
   <img src="scetch3.jpeg" alt="Scetch 3" width="600">
 </p>
 
-$
+
